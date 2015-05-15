@@ -5,9 +5,16 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "VSO.SprintReporting", "VSO.SprintReporting.fsproj", "{40C35410-5C96-4D23-94BD-A0F1381330A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSO.OAuth.UI", "..\VSO.OAuth.UI\VSO.OAuth.UI.csproj", "{869A24AD-DDE4-42A4-A7E5-DEF9F02F7496}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualStudioOnline.Api.Rest", "..\vsorest\VisualStudioOnline.Api.Rest\VisualStudioOnline.Api.Rest.csproj", "{9E8BD164-32F7-4D5B-92BF-354AE35F47A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSO.OAuth.UI", "..\VSO.OAuth.UI\VSO.OAuth.UI.csproj", "{869A24AD-DDE4-42A4-A7E5-DEF9F02F7496}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{799A252B-9902-4755-AA9D-EBC941CAEF59}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +26,14 @@ Global
 		{40C35410-5C96-4D23-94BD-A0F1381330A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40C35410-5C96-4D23-94BD-A0F1381330A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40C35410-5C96-4D23-94BD-A0F1381330A1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9E8BD164-32F7-4D5B-92BF-354AE35F47A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9E8BD164-32F7-4D5B-92BF-354AE35F47A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9E8BD164-32F7-4D5B-92BF-354AE35F47A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9E8BD164-32F7-4D5B-92BF-354AE35F47A4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{869A24AD-DDE4-42A4-A7E5-DEF9F02F7496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{869A24AD-DDE4-42A4-A7E5-DEF9F02F7496}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{869A24AD-DDE4-42A4-A7E5-DEF9F02F7496}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{869A24AD-DDE4-42A4-A7E5-DEF9F02F7496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E8BD164-32F7-4D5B-92BF-354AE35F47A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E8BD164-32F7-4D5B-92BF-354AE35F47A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E8BD164-32F7-4D5B-92BF-354AE35F47A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E8BD164-32F7-4D5B-92BF-354AE35F47A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,3 @@
+[submodule "vsorest"]
+	path = vsorest
+	url = https://git01.codeplex.com/forks/kna/vsorest
