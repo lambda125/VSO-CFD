@@ -131,8 +131,8 @@ let dedupe file =
         | _ -> None
 
 
-    let date item =
-        item.Date
+    let dateAndStatus item =
+        sprintf "%A-%s" item.Date item.Status
 
     let dateDesc item = 
         DateTime.MaxValue - item.Date
@@ -142,7 +142,7 @@ let dedupe file =
         lines
         |> Seq.map parse
         |> Seq.choose (fun s -> s)
-        |> Seq.distinctBy date
+        |> Seq.distinctBy dateAndStatus
         |> Seq.sortBy dateDesc
 
     //write to file which will be the source for Excel
